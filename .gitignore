@@ -1,6 +1,9 @@
 # Claude Agent System and Related Files
 /claude/
 claude/
+CLAUDE.md
+/plan
+/plan/*
 
 # Agent System Components
 /claude/agents/
