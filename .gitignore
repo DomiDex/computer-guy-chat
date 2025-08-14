@@ -1,0 +1,103 @@
+# Claude Agent System and Related Files
+/claude/
+claude/
+
+# Agent System Components
+/claude/agents/
+/claude/monitoring/
+/claude/hooks/
+/claude/mcp-mandates/
+/claude/prompts/
+/claude/execution/
+/claude/generators/
+/claude/workflow/
+
+# Monitoring and Telemetry
+*.log
+metrics.log
+telemetry-data/
+otel-data/
+docker-compose.monitoring.yml
+otel-collector-config.yaml
+prometheus.yml
+grafana-dashboards/
+grafana-datasources/
+
+# Scripts created during setup
+enable-console-monitoring.sh
+see-telemetry.sh
+setup-telemetry.sh
+start-dashboard.sh
+parse-metrics.sh
+terminal-dashboard.sh
+get-docker.sh
+
+# Environment and Configuration
+.env.claude
+.mcp.json
+managed-settings.json
+
+# Docker volumes (if Docker gets installed)
+prometheus_data/
+grafana_data/
+loki_data/
+
+# Generated documentation
+COMPLETE_MONITORING_GUIDE.md
+OTEL_SETUP.md
+SYSTEM_REVIEW_AND_IMPROVEMENTS.md
+SYSTEM_VERIFICATION.md
+QUICK_START_GUIDE.md
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (if any get installed)
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Python (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output
+
+# Build outputs
+dist/
+build/
+out/
+*.out
